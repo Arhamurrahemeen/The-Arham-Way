@@ -1,30 +1,77 @@
-# The-Arham-Way
+<div align="center">
 
-Welcome to my personal knowledge base and professional methodology. As a Computer Systems Engineering student and developer, I’ve moved away from "Vibe Coding" toward a rigorous, **Specs-Driven Development (SDD)** approach. 
+![The Arham Way](./assets/banner.svg)
 
-This repository documents my unique workflow for building complex systems—from Web Dev and Agentic AI to Digital Twins and Robotics.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/muhammad-arham-rajput)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/Arhamurrahemeen)
+[![Email](https://img.shields.io/badge/Email-Say%20hello-539091?logo=gmail&logoColor=white&style=flat-square)](mailto:business.arhamurrahemeen@gmail.com)
 
-## 🧠 The Core Philosophy: SDD > Vibe Coding
-In today’s world, it is easy to "vibe code" with AI, but those projects often fail in production. My method focuses on:
-*   **Documentation-First:** Clearly defining goals and scope before touching a single line of code.
-*   **Blueprint Efficiency:** Using high-level AI to create a project roadmap that prevents token waste and debugging loops.
-*   **Engineering Mindset:** Approaching every problem with the structured thinking of a Computer Systems Engineer.
-
-## 🛠️ The AI Orchestration Stack
-I don't just use one AI; I orchestrate a specialized team of tools to build at scale:
-*   **Architect:** **Claude** – Exceptional for research, flow patterns, and creating the initial technical blueprint.
-*   **Designer:** **Google Stitch** – Transforming documented specs into beautiful, functional frontends.
-*   **General Agent:** **Gemini** – My all-rounder for brainstorming, prompt enhancement, and deep debugging.
-*   **Backend Support:** **Sixth AI**, **Gemini CLI**, and **Claude Code** – Powerful tools that live in my IDE to handle heavy lifting and debugging while I focus on architecture.
-
-## 📂 Repository Structure
-*   **`philosophies/`**: High-level mindset shifts, such as why SDD is the professional standard.
-*   **`playbooks/`**: Step-by-step guides on starting projects and selling your technical solutions.
-*   **`tool-stacks/`**: Deep dives into my favorite IDEs like **VS Code** and **Antigravity**, and how to maximize them.
-*   **`career-growth/`**: The "Freshear" guide for university students and the power of networking.
-*   **`case-studies/`**: Real-world examples of this method in action, including the **HSK Bone Care** UI upgrade.
-
-## 🚀 About Me
-I am a **Computer Systems Engineering** student with a passion for **Agentic AI, Robotics, and IoT**. Whether I am performing as a lead guitarist or tracking progress as the VP of a student society, I believe that **contacts and structured methods** are the keys to exponential growth.
+</div>
 
 ---
+
+## Who I am
+
+> My maternal uncle — we call him KB Mamo — is an Electronic Engineer.
+> When I was a kid, he put a circuit board in my hands and showed me how it worked.
+> Not *what* it did. *How* it worked.
+>
+> That was the moment I understood: **you can build anything you can imagine.**
+
+I'm **Muhammad Arham Rajput** — a Computer Systems Engineering student at DUET Karachi. I chose CSE specifically to stay at that intersection KB Mamo showed me: where **software meets hardware**.
+
+Right now I'm working as a full-stack developer, leading my university's engineering society, and building in the space of **Digital Twins · AI Hardware · Robotics**.
+
+`📍 Karachi, Pakistan` &nbsp;·&nbsp; `🎓 DUET CSE 2027` &nbsp;·&nbsp; `🎸 Guitarist`
+
+---
+
+## What this repo is
+
+I learn best by writing things down.
+
+This is my working notebook — the principles I've developed, the processes I actually follow, and the real projects where I tested them. Not a portfolio. Honest documentation of an engineer in progress.
+
+---
+
+## Inside
+
+![Repo structure](./assets/folder-map.svg)
+
+| Folder | |
+| :--- | :--- |
+| [`philosophies/`](./philosophies) | The beliefs behind how I work |
+| [`playbooks/`](./playbooks) | Repeatable processes, step by step |
+| [`case-studies/`](./case-studies) | Real projects — what worked and what broke |
+| [`tool-stacks/`](./tool-stacks) | The tools I use and how I choose them |
+| [`career/`](./career) | Advice for students and juniors |
+| [`field-notes/`](./field-notes) | Short entries, logged as I go |
+
+---
+
+## Start here
+
+| | |
+| :--- | :--- |
+| [Why I work specs-first →](./philosophies/sdd-vs-vibe-coding.md) | My core engineering philosophy |
+| [How I start any project →](./playbooks/the-blueprint-method.md) | Idea to shipped, step by step |
+| [A real project, with the messy parts →](./case-studies/hsk-bone-care-migration.md) | HSK Bone Care: NoSQL → PostgreSQL |
+
+---
+
+## Find me
+
+<div align="center">
+
+[LinkedIn](https://www.linkedin.com/in/muhammad-arham-rajput) &nbsp;·&nbsp;
+[GitHub](https://github.com/Arhamurrahemeen) &nbsp;·&nbsp;
+[Instagram](https://www.instagram.com/arham_urrahemeen/) &nbsp;·&nbsp;
+[Email](mailto:business.arhamurrahemeen@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+<sub>Living document — updated as I build and learn.</sub>
+</div>
