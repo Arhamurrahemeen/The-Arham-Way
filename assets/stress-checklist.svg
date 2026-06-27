@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stress-test checklist: five categories of failure to provoke before users do">
+  <defs>
+    <pattern id="sgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1C1B19" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="460" fill="#F4EEE2"/>
+  <rect width="1000" height="460" fill="url(#sgrid)"/>
+  <rect x="12" y="12" width="976" height="436" fill="none" stroke="#1C1B19" stroke-width="0.5" opacity="0.10"/>
+
+  <!-- header -->
+  <text x="40" y="50" font-family="'Courier New',monospace" font-size="11" letter-spacing="3" fill="#8A8275">PHASE 05 · STRESS</text>
+  <text x="40" y="84" font-family="Georgia,serif" font-size="26" font-style="italic" fill="#1C1B19">Five places to break it on purpose</text>
+  <rect x="40" y="100" width="80" height="3" fill="#539091"/>
+
+  <!-- two columns, 3 cards left + 2 cards right -->
+  <!-- left column starts x=40, card width 440 -->
+  <!-- right column starts x=520 -->
+
+  <!-- Card 1 — Edge inputs -->
+  <g transform="translate(40,135)">
+    <rect width="440" height="92" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect width="5" height="92" fill="#539091"/>
+    <text x="22" y="28" font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8A8275">01 · EDGE INPUTS</text>
+    <text x="22" y="52" font-family="Georgia,serif" font-size="16" fill="#1C1B19">Empty · max-length · Urdu · emoji · null</text>
+    <text x="22" y="74" font-family="'Courier New',monospace" font-size="11" fill="#6E6A62">future dates · zero · negatives · undefined</text>
+  </g>
+
+  <!-- Card 2 — Network -->
+  <g transform="translate(40,240)">
+    <rect width="440" height="92" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect width="5" height="92" fill="#539091"/>
+    <text x="22" y="28" font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8A8275">02 · NETWORK</text>
+    <text x="22" y="52" font-family="Georgia,serif" font-size="16" fill="#1C1B19">Slow 3G · packet loss · full offline</text>
+    <text x="22" y="74" font-family="'Courier New',monospace" font-size="11" fill="#6E6A62">the conditions your users actually have</text>
+  </g>
+
+  <!-- Card 3 — Adversarial -->
+  <g transform="translate(40,345)">
+    <rect width="440" height="92" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect width="5" height="92" fill="#539091"/>
+    <text x="22" y="28" font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8A8275">03 · ADVERSARIAL</text>
+    <text x="22" y="52" font-family="Georgia,serif" font-size="16" fill="#1C1B19">10MB paste · 1k req/s · injection · bots</text>
+    <text x="22" y="74" font-family="'Courier New',monospace" font-size="11" fill="#6E6A62">assume someone wants to break it</text>
+  </g>
+
+  <!-- Card 4 — Hardware variance -->
+  <g transform="translate(520,135)">
+    <rect width="440" height="92" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect width="5" height="92" fill="#539091"/>
+    <text x="22" y="28" font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8A8275">04 · HARDWARE VARIANCE</text>
+    <text x="22" y="52" font-family="Georgia,serif" font-size="16" fill="#1C1B19">5°C · 45°C · flat battery · dust · vibration</text>
+    <text x="22" y="74" font-family="'Courier New',monospace" font-size="11" fill="#6E6A62">if it has atoms, it has a temperature range</text>
+  </g>
+
+  <!-- Card 5 — Boring failures -->
+  <g transform="translate(520,240)">
+    <rect width="440" height="92" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect width="5" height="92" fill="#539091"/>
+    <text x="22" y="28" font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8A8275">05 · BORING FAILURES</text>
+    <text x="22" y="52" font-family="Georgia,serif" font-size="16" fill="#1C1B19">Disk full · DB down · 3rd-party API dead</text>
+    <text x="22" y="74" font-family="'Courier New',monospace" font-size="11" fill="#6E6A62">clock skew · expired cert · DNS flake</text>
+  </g>
+
+  <!-- Pull-quote card in bottom right -->
+  <g transform="translate(520,345)">
+    <rect width="440" height="92" rx="6" fill="none" stroke="#539091" stroke-width="1.2" stroke-dasharray="4,3"/>
+    <text x="22" y="32" font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8A8275">THE PATTERN</text>
+    <text x="22" y="58" font-family="Georgia,serif" font-style="italic" font-size="15" fill="#1C1B19">One AI as primary collaborator.</text>
+    <text x="22" y="78" font-family="Georgia,serif" font-style="italic" font-size="15" fill="#1C1B19">A different one as adversarial reviewer.</text>
+  </g>
+</svg>

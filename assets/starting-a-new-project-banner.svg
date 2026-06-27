@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Starting a New Project — playbook banner">
+  <defs>
+    <pattern id="bgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1C1B19" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="280" fill="#F4EEE2"/>
+  <rect width="1200" height="280" fill="url(#bgrid)"/>
+
+  <!-- editorial double frame -->
+  <rect x="22" y="22" width="1156" height="236" fill="none" stroke="#1C1B19" stroke-width="1.5"/>
+  <rect x="30" y="30" width="1140" height="220" fill="none" stroke="#1C1B19" stroke-width="0.6"/>
+
+  <!-- right-side phase ticks (5 marks, like a project timeline) -->
+  <g transform="translate(900,140)" stroke="#539091" fill="none" opacity="0.55">
+    <line x1="0" y1="-70" x2="0" y2="70" stroke-width="1"/>
+    <g stroke-width="1.2">
+      <line x1="-12" y1="-70" x2="12" y2="-70"/>
+      <line x1="-12" y1="-35" x2="12" y2="-35"/>
+      <line x1="-12" y1="0"   x2="12" y2="0"/>
+      <line x1="-12" y1="35"  x2="12" y2="35"/>
+      <line x1="-12" y1="70"  x2="12" y2="70"/>
+    </g>
+    <g font-family="'Courier New',monospace" font-size="10" letter-spacing="2.5" fill="#8A8275" stroke="none" text-anchor="start">
+      <text x="22" y="-66">01 · CONVICTION</text>
+      <text x="22" y="-31">02 · BLUEPRINT</text>
+      <text x="22" y="4">03 · SURFACE</text>
+      <text x="22" y="39">04 · SKELETON</text>
+      <text x="22" y="74">05 · STRESS</text>
+    </g>
+  </g>
+
+  <!-- top label -->
+  <text x="64" y="80" font-family="'SF Mono', ui-monospace, 'Courier New', monospace"
+        font-size="13" letter-spacing="5" fill="#8A8275">PLAYBOOK · 05 PHASES · 05 FORKS</text>
+
+  <!-- title -->
+  <text x="60" y="168" font-family="Georgia, 'Times New Roman', serif"
+        font-size="68" font-style="italic" fill="#1C1B19">Starting a New Project</text>
+
+  <!-- accent rule -->
+  <rect x="64" y="188" width="100" height="3" fill="#539091"/>
+
+  <!-- tagline -->
+  <text x="64" y="224" font-family="'SF Mono', ui-monospace, 'Courier New', monospace"
+        font-size="14" letter-spacing="0.8" fill="#3A372F">The first two weeks of any project — web, hardware, or AI.</text>
+</svg>
