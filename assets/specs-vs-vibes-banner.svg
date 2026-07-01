@@ -1,0 +1,24 @@
+<svg role="img" aria-label="The Arham Way — Specs vs. Vibes banner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#1C1B19" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="280" fill="#F4EEE2"/>
+  <rect width="1200" height="280" fill="url(#dots)"/>
+  <rect x="24" y="24" width="1152" height="232" fill="none" stroke="#1C1B19" stroke-width="1"/>
+  <rect x="32" y="32" width="1136" height="216" fill="none" stroke="#1C1B19" stroke-width="0.75"/>
+
+  <text x="60" y="80" font-family="Courier New, monospace" font-size="12" letter-spacing="4" fill="#8A8275">THE ARHAM WAY  //  PHILOSOPHIES  //  NO. 01</text>
+
+  <text x="60" y="170" font-family="Georgia, serif" font-style="italic" font-size="72" fill="#1C1B19">Specs</text>
+  <text x="270" y="170" font-family="Courier New, monospace" font-size="42" fill="#539091">vs.</text>
+  <text x="365" y="170" font-family="Georgia, serif" font-style="italic" font-size="72" fill="#1C1B19">Vibes</text>
+
+  <line x1="60" y1="195" x2="180" y2="195" stroke="#539091" stroke-width="3"/>
+
+  <text x="60" y="222" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#3A372F">Vibe coding isn't wrong. It's a mode.</text>
+  <text x="60" y="244" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#3A372F">The mistake is not knowing which mode you're in.</text>
+
+  <text x="1140" y="244" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8A8275" text-anchor="end">— ARHAM</text>
+</svg>
