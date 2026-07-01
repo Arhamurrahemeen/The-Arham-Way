@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="The AI orchestra — role map showing Claude at center with Claude Code, Kimi, Stitch, and Gemini as supporting roles">
+  <defs>
+    <pattern id="dots2" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#1C1B19" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" fill="#F4EEE2"/>
+  <rect width="1200" height="720" fill="url(#dots2)"/>
+
+  <!-- header label -->
+  <text x="600" y="52" font-family="Courier New, monospace" font-size="12" fill="#8A8275" text-anchor="middle" letter-spacing="4">THE ORCHESTRA — WHO PLAYS WHAT</text>
+
+  <!-- CENTER CARD: Claude (larger, the conductor) -->
+  <g>
+    <rect x="440" y="260" width="320" height="200" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect x="440" y="260" width="5" height="200" fill="#539091"/>
+    <text x="465" y="292" font-family="Courier New, monospace" font-size="11" fill="#8A8275" letter-spacing="2">THE MIND</text>
+    <text x="465" y="332" font-family="Georgia, serif" font-style="italic" font-size="30" fill="#1C1B19">Claude</text>
+    <text x="465" y="368" font-family="Georgia, serif" font-size="14" fill="#3A372F">Architecture. Deep research.</text>
+    <text x="465" y="388" font-family="Georgia, serif" font-size="14" fill="#3A372F">Specs, writing, learning.</text>
+    <text x="465" y="408" font-family="Georgia, serif" font-size="14" fill="#3A372F">The one I actually think with.</text>
+    <text x="465" y="440" font-family="Courier New, monospace" font-size="10" fill="#539091" letter-spacing="1">→ PRIMARY / DAILY</text>
+  </g>
+
+  <!-- connecting lines from center to four corners -->
+  <line x1="600" y1="260" x2="240" y2="150" stroke="#8A8275" stroke-width="0.75" stroke-dasharray="3,4"/>
+  <line x1="600" y1="260" x2="960" y2="150" stroke="#8A8275" stroke-width="0.75" stroke-dasharray="3,4"/>
+  <line x1="600" y1="460" x2="240" y2="580" stroke="#8A8275" stroke-width="0.75" stroke-dasharray="3,4"/>
+  <line x1="600" y1="460" x2="960" y2="580" stroke="#8A8275" stroke-width="0.75" stroke-dasharray="3,4"/>
+
+  <!-- TOP-LEFT: Claude Code (the hands) -->
+  <g>
+    <rect x="80" y="110" width="320" height="150" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect x="80" y="110" width="5" height="150" fill="#539091"/>
+    <text x="105" y="140" font-family="Courier New, monospace" font-size="11" fill="#8A8275" letter-spacing="2">THE HANDS</text>
+    <text x="105" y="176" font-family="Georgia, serif" font-style="italic" font-size="24" fill="#1C1B19">Claude Code</text>
+    <text x="105" y="206" font-family="Georgia, serif" font-size="13" fill="#3A372F">Terminal execution.</text>
+    <text x="105" y="224" font-family="Georgia, serif" font-size="13" fill="#3A372F">Edits, runs, debugs.</text>
+    <text x="105" y="248" font-family="Courier New, monospace" font-size="10" fill="#539091" letter-spacing="1">→ WHEN CODE MUST SHIP</text>
+  </g>
+
+  <!-- TOP-RIGHT: Kimi (the adversary) -->
+  <g>
+    <rect x="800" y="110" width="320" height="150" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect x="800" y="110" width="5" height="150" fill="#539091"/>
+    <text x="825" y="140" font-family="Courier New, monospace" font-size="11" fill="#8A8275" letter-spacing="2">THE ADVERSARY</text>
+    <text x="825" y="176" font-family="Georgia, serif" font-style="italic" font-size="24" fill="#1C1B19">Kimi</text>
+    <text x="825" y="206" font-family="Georgia, serif" font-size="13" fill="#3A372F">Stress tests. Edge cases.</text>
+    <text x="825" y="224" font-family="Georgia, serif" font-size="13" fill="#3A372F">"Where does this break?"</text>
+    <text x="825" y="248" font-family="Courier New, monospace" font-size="10" fill="#539091" letter-spacing="1">→ BEFORE ANYTHING SHIPS</text>
+  </g>
+
+  <!-- BOTTOM-LEFT: Google Stitch (the eyes) -->
+  <g>
+    <rect x="80" y="540" width="320" height="150" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect x="80" y="540" width="5" height="150" fill="#539091"/>
+    <text x="105" y="570" font-family="Courier New, monospace" font-size="11" fill="#8A8275" letter-spacing="2">THE EYES</text>
+    <text x="105" y="606" font-family="Georgia, serif" font-style="italic" font-size="24" fill="#1C1B19">Google Stitch</text>
+    <text x="105" y="636" font-family="Georgia, serif" font-size="13" fill="#3A372F">UI mockups from prompts.</text>
+    <text x="105" y="654" font-family="Georgia, serif" font-size="13" fill="#3A372F">First drafts of screens.</text>
+    <text x="105" y="678" font-family="Courier New, monospace" font-size="10" fill="#539091" letter-spacing="1">→ BEFORE FIGMA</text>
+  </g>
+
+  <!-- BOTTOM-RIGHT: Gemini (the sidekick) -->
+  <g>
+    <rect x="800" y="540" width="320" height="150" rx="6" fill="#FFFFFF" stroke="#E0D8CA" stroke-width="1"/>
+    <rect x="800" y="540" width="5" height="150" fill="#539091"/>
+    <text x="825" y="570" font-family="Courier New, monospace" font-size="11" fill="#8A8275" letter-spacing="2">THE SIDEKICK</text>
+    <text x="825" y="606" font-family="Georgia, serif" font-style="italic" font-size="24" fill="#1C1B19">Gemini</text>
+    <text x="825" y="636" font-family="Georgia, serif" font-size="13" fill="#3A372F">Small talk. Guitar tabs.</text>
+    <text x="825" y="654" font-family="Georgia, serif" font-size="13" fill="#3A372F">The non-work companion.</text>
+    <text x="825" y="678" font-family="Courier New, monospace" font-size="10" fill="#539091" letter-spacing="1">→ OFF-HOURS</text>
+  </g>
+
+  <!-- footer note -->
+  <text x="600" y="710" font-family="Courier New, monospace" font-size="10" fill="#8A8275" text-anchor="middle" letter-spacing="2">ONE CONDUCTOR. FOUR SPECIALISTS. NO OVERLAP.</text>
+</svg>
